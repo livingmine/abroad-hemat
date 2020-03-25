@@ -4,6 +4,7 @@ module.exports = {
     description: `Gatsby starter styled with Tailwind`,
     author: `@taylorbryant`
   },
+  pathPrefix: "/abroad-hemat",
   plugins: [
     "gatsby-plugin-eslint",
     `gatsby-plugin-react-helmet`,
