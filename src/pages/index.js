@@ -30,7 +30,7 @@ function IndexPage() {
       {/* <!-- Cards section --> */}
       <div className="h-auto w-full justify-center mt-4">
         <div className="flex flex-wrap justify-center">
-          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto bg-white my-1 md:my-4 mx-4 flex-col">
+          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto my-2 mx-2 flex-col">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
               <a href="#" className="flex flex-wrap no-underline hover:no-underline">
                 <img src={maldives} alt="" className="h-56 w-full pb-6"></img>
@@ -44,7 +44,7 @@ function IndexPage() {
               </div>
             </div>
           </div>
-          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto bg-white my-1 md:my-4 mx-4 flex-col">
+          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto my-2 mx-2 flex-col">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
               <a href="#" className="flex flex-wrap no-underline hover:no-underline">
                 <img src={maldives} alt="" className="h-56 w-full rounded-t pb-6"></img>
@@ -58,7 +58,7 @@ function IndexPage() {
               </div>
             </div>
           </div>
-          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto bg-white my-1 md:my-4 mx-4 flex-col">
+          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto my-2 mx-2 flex-col">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
               <a href="#" className="flex flex-wrap no-underline hover:no-underline">
                 <img src={maldives} alt="" className="h-56 w-full rounded-t pb-6"></img>
@@ -72,7 +72,7 @@ function IndexPage() {
               </div>
             </div>
           </div>
-          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto bg-white my-1 md:my-4 mx-4 flex-col">
+          <div className="w-3/5 sm:w-2/5 lg:w-1/5 h-auto my-2 mx-2 flex-col">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow-lg">
               <a href="#" className="flex flex-wrap no-underline hover:no-underline">
                 <img src={maldives} alt="" className="h-56 w-full rounded-t pb-6"></img>
