@@ -21,6 +21,10 @@ function StoryPage() {
         {/* <!-- Main content wrapper --> */}
         <div className="w-11/12 sm:w-8/12 h-auto bg-white my-4 mx-auto px-4 py-6 shadow-lg rounded-md border">
 
+          <div className="w-full mb-8">
+            <img src={openTrip} alt="" className="border rounded-sm shadow-lg mx-auto"></img>
+          </div>
+
           <div className="flex flex-wrap h-auto w-3/5 md:w-1/2 px-3">
             <p className="text-xl font-semibold">Lorem Ipsum Dolor Sit Amet</p>
           </div>
@@ -77,7 +81,6 @@ function StoryPage() {
               </p>
             </div>
           </div>
-
 
         </div>
 

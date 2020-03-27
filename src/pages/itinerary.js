@@ -18,19 +18,19 @@ function ItineraryPage() {
         {/* <!-- Image cards --> */}
         <div className="flex flex-wrap xl:flex-no-wrap justify-center pt-12 align-middle mt-16 bg-black">
           <div className="w-4/5 sm:w-2/5 lg:w-1/5 my-2 mx-2">
-            <img src={osakaStory} alt="" className="h-48 rounded-lg"></img>
+            <img src={osakaStory} alt="" className="object-cover w-full h-48 rounded-lg"></img>
           </div>
 
           <div className="w-4/5 sm:w-2/5 lg:w-1/5 my-2 mx-2">
-            <img src={taipei} alt="" className="h-48 rounded-lg"></img>
+            <img src={taipei} alt="" className="object-cover w-full h-48 rounded-lg"></img>
           </div>
 
           <div className="w-4/5 sm:w-2/5 lg:w-1/5 my-2 mx-2">
-            <img src={maldives} alt="" className="h-48 rounded-lg"></img>
+            <img src={maldives} alt="" className="object-cover w-full h-48 rounded-lg"></img>
           </div>
 
           <div className="w-4/5 sm:w-2/5 lg:w-1/5 my-2 mx-2">
-            <img src={honeymoon} alt="" className="h-48 rounded-lg"></img>
+            <img src={honeymoon} alt="" className="object-cover w-full h-48 rounded-lg"></img>
           </div>
         </div>
 
@@ -43,13 +43,13 @@ function ItineraryPage() {
         {/* <!-- offer section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-white">
           <div className="w-full justify-center flex sm:flex-col px-8 sm:w-2/6 xl:w-1/6 py-2">
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">What</p>
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">We</p>
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">Offer</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">What</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">We</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">Offer</p>
           </div>
           <div className="w-full sm:w-4/6 xl:w-5/6">
             <hr className="border-2 border-black w-5/5 m-auto mb-4"></hr>
-            <p className="sm:text-sm lg:text-base xl:text-base text-justify">
+            <p className="text-sm text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt ipsum fermentum fringilla
               dictum.
               Aenean id
@@ -69,23 +69,6 @@ function ItineraryPage() {
               finibus vel lacinia vel, pulvinar iaculis sem. Nam at leo vel purus elementum elementum id vel enim. Sed
               mollis blandit
               dolor vel molestie. Donec pharetra leo neque, id gravida quam pellentesque id. Vivamus ut urna leo.
-              Phasellus a enim eget sapien gravida commodo eu tempus mi. Proin ornare semper facilisis. Integer congue
-              nulla eu
-              euismod condimentum. Etiam sed elementum magna, consectetur aliquam sapien. Sed tempus tellus et nisl
-              facilisis, nec
-              condimentum orci laoreet. Ut non sem malesuada, accumsan nunc id, dapibus neque. Cras sit amet metus nec
-              turpis
-              ullamcorper mattis id sed augue.
-              Cras pretium sapien urna, vel laoreet nunc consectetur ut. Sed accumsan dapibus augue in sollicitudin.
-              Mauris libero
-              lacus, mattis eget scelerisque ac, consectetur a mi. Fusce at augue neque. Cras libero risus, tempor non
-              dolor et,
-              accumsan dignissim nunc. Nunc non ipsum quis quam auctor ornare. Donec sed tellus varius ipsum mollis
-              rutrum. Nulla
-              facilisi. Donec in sapien maximus, luctus est ut, ullamcorper mauris. Praesent suscipit justo ac sodales
-              auctor.
-              Phasellus pulvinar tellus a luctus rhoncus. Donec mattis molestie erat ut dignissim. In gravida commodo
-              dignissim.
                 </p>
           </div>
         </div>
@@ -109,7 +92,7 @@ function ItineraryPage() {
                 <div className="flex flex-col w-2/3 ml-2 pr-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
-                    <p className="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis tincidunt
                     ipsum fermentum fringilla dictum. Aenean id
                     mattis diam, vitae tristique tellus. Aenean semper massa ut lorem imperdiet, in tempor
@@ -138,7 +121,7 @@ function ItineraryPage() {
                 <div className="flex flex-col w-2/3 ml-2 pr-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
-                    <p className="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis tincidunt
                     ipsum fermentum fringilla dictum. Aenean id
                     mattis diam, vitae tristique tellus. Aenean semper massa ut lorem imperdiet, in tempor
@@ -167,7 +150,7 @@ function ItineraryPage() {
                 <div className="flex flex-col w-2/3 ml-2 pr-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
-                    <p className="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis tincidunt
                     ipsum fermentum fringilla dictum. Aenean id
                     mattis diam, vitae tristique tellus. Aenean semper massa ut lorem imperdiet, in tempor
@@ -196,7 +179,7 @@ function ItineraryPage() {
                 <div className="flex flex-col w-2/3 ml-2 pr-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
-                    <p className="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis tincidunt
                     ipsum fermentum fringilla dictum. Aenean id
                     mattis diam, vitae tristique tellus. Aenean semper massa ut lorem imperdiet, in tempor
@@ -225,7 +208,7 @@ function ItineraryPage() {
                 <div className="flex flex-col w-2/3 ml-2 pr-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
-                    <p className="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Duis tincidunt
                     ipsum fermentum fringilla dictum. Aenean id
                     mattis diam, vitae tristique tellus. Aenean semper massa ut lorem imperdiet, in tempor
@@ -249,12 +232,12 @@ function ItineraryPage() {
         {/* <!-- included section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-white">
           <div className="w-full justify-center flex sm:flex-col px-8 sm:w-2/6 xl:w-1/6 py-2">
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">What is</p>
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">Included</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">What is</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">Included</p>
           </div>
           <div className="w-full sm:w-4/6 xl:w-5/6">
             <hr className="border-2 border-black w-5/5 m-auto mb-4"></hr>
-            <p className="sm:text-sm lg:text-base xl:text-base text-justify">
+            <p className="text-sm text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt ipsum fermentum fringilla
               dictum.
               Aenean id
@@ -267,30 +250,6 @@ function ItineraryPage() {
               erat,
               lacinia at
               consequat vitae, auctor ut nisi. Maecenas cursus massa eu felis sollicitudin, et lobortis mauris luctus.
-              Proin
-              condimentum, nulla quis scelerisque consectetur, urna neque mollis erat, eu sodales felis justo vel mi.
-              Ut
-              turpis ante,
-              finibus vel lacinia vel, pulvinar iaculis sem. Nam at leo vel purus elementum elementum id vel enim. Sed
-              mollis blandit
-              dolor vel molestie. Donec pharetra leo neque, id gravida quam pellentesque id. Vivamus ut urna leo.
-              Phasellus a enim eget sapien gravida commodo eu tempus mi. Proin ornare semper facilisis. Integer congue
-              nulla eu
-              euismod condimentum. Etiam sed elementum magna, consectetur aliquam sapien. Sed tempus tellus et nisl
-              facilisis, nec
-              condimentum orci laoreet. Ut non sem malesuada, accumsan nunc id, dapibus neque. Cras sit amet metus nec
-              turpis
-              ullamcorper mattis id sed augue.
-              Cras pretium sapien urna, vel laoreet nunc consectetur ut. Sed accumsan dapibus augue in sollicitudin.
-              Mauris libero
-              lacus, mattis eget scelerisque ac, consectetur a mi. Fusce at augue neque. Cras libero risus, tempor non
-              dolor et,
-              accumsan dignissim nunc. Nunc non ipsum quis quam auctor ornare. Donec sed tellus varius ipsum mollis
-              rutrum. Nulla
-              facilisi. Donec in sapien maximus, luctus est ut, ullamcorper mauris. Praesent suscipit justo ac sodales
-              auctor.
-              Phasellus pulvinar tellus a luctus rhoncus. Donec mattis molestie erat ut dignissim. In gravida commodo
-              dignissim.
                 </p>
           </div>
         </div>
@@ -298,13 +257,13 @@ function ItineraryPage() {
         {/* <!-- not included section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-white">
           <div className="w-full justify-center flex sm:flex-col px-4 sm:w-2/6 xl:w-1/6 py-2">
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">What is</p>
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">Not</p>
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">Included</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">What is</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">Not</p>
+            <p className="font-bold mr-1 text-xl lg:text-4xl">Included</p>
           </div>
           <div className="w-full sm:w-4/6 xl:w-5/6">
             <hr className="border-2 border-black w-5/5 m-auto mb-4"></hr>
-            <p className="sm:text-sm lg:text-base xl:text-base text-justify">
+            <p className="text-sm text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt ipsum fermentum fringilla
               dictum.
               Aenean id
@@ -324,23 +283,6 @@ function ItineraryPage() {
               finibus vel lacinia vel, pulvinar iaculis sem. Nam at leo vel purus elementum elementum id vel enim. Sed
               mollis blandit
               dolor vel molestie. Donec pharetra leo neque, id gravida quam pellentesque id. Vivamus ut urna leo.
-              Phasellus a enim eget sapien gravida commodo eu tempus mi. Proin ornare semper facilisis. Integer congue
-              nulla eu
-              euismod condimentum. Etiam sed elementum magna, consectetur aliquam sapien. Sed tempus tellus et nisl
-              facilisis, nec
-              condimentum orci laoreet. Ut non sem malesuada, accumsan nunc id, dapibus neque. Cras sit amet metus nec
-              turpis
-              ullamcorper mattis id sed augue.
-              Cras pretium sapien urna, vel laoreet nunc consectetur ut. Sed accumsan dapibus augue in sollicitudin.
-              Mauris libero
-              lacus, mattis eget scelerisque ac, consectetur a mi. Fusce at augue neque. Cras libero risus, tempor non
-              dolor et,
-              accumsan dignissim nunc. Nunc non ipsum quis quam auctor ornare. Donec sed tellus varius ipsum mollis
-              rutrum. Nulla
-              facilisi. Donec in sapien maximus, luctus est ut, ullamcorper mauris. Praesent suscipit justo ac sodales
-              auctor.
-              Phasellus pulvinar tellus a luctus rhoncus. Donec mattis molestie erat ut dignissim. In gravida commodo
-              dignissim.
                 </p>
           </div>
         </div>
