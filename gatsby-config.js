@@ -37,6 +37,13 @@ module.exports = {
         purgeOnly: [`src/css/style.css`]
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `fonts`,
+        path: `src/fonts/`
+      }
+    },
     `gatsby-plugin-offline`
   ]
 };

@@ -1,5 +1,13 @@
 /* purgecss start ignore */
 @tailwind base;
+
+@font-face {
+    font-family: 'Gotham-Rounded';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/GothamRounded-Medium.otf') format("otf");
+}
+
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
