@@ -2,10 +2,49 @@
 @tailwind base;
 
 @font-face {
-    font-family: 'Gotham-Rounded';
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    font-style: normal;
+    src: url('../fonts/GothamRounded-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../fonts/GothamRounded-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
     font-weight: normal;
     font-style: normal;
-    src: url('../fonts/GothamRounded-Medium.otf') format("otf");
+    src: url('../fonts/GothamRounded-Book.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    font-weight: normal;
+    font-style: italic;
+    src: url('../fonts/GothamRounded-BookItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    font-weight: lighter;
+    font-style: normal;
+    src: url('../fonts/GothamRounded-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Gotham Rounded';
+    font-weight: lighter;
+    font-style: italic;
+    src: url('../fonts/GothamRounded-LightItalic.otf') format('opentype');
+}
+
+.font-gotham {
+    font-family: 'Gotham Rounded';
 }
 
 @tailwind components;

@@ -15,7 +15,7 @@ function Header() {
   // `);
 
   return (
-    <header>
+    <header className="font-gotham">
       <nav className="flex flex-row items-center justify-between flex-wrap p-4 fixed w-full z-10 top-0 bg-white">
           <div className="flex items-center">
               <a href="#">

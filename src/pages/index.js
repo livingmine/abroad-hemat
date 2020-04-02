@@ -22,7 +22,7 @@ function IndexPage() {
           <p className="font-bold italic tracking-wide text-3xl lg:text-5xl">Clubmed Kani</p>
           <p className="font-light tracking-wider">on MaldivesHemat</p>
           <button
-            className="mt-6 border-white border-2 rounded-md px-2 py-1 text-sm font-light tracking-wider bg-white text-black">See
+            className="mt-6 border-white border-2 rounded-md p-1 text-sm font-light tracking-wider bg-white text-black">See
                 More</button>
         </div>
       </div>

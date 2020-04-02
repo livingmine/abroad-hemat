@@ -42,7 +42,7 @@ function ItineraryPage() {
 
         {/* <!-- offer section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-white">
-          <div className="w-full justify-center flex sm:flex-col px-8 sm:w-2/6 xl:w-1/6 py-2">
+          <div className="w-full justify-center flex sm:flex-col px-4 sm:w-2/6 xl:w-1/6 py-2">
             <p className="font-bold mr-1 text-xl lg:text-4xl">What</p>
             <p className="font-bold mr-1 text-xl lg:text-4xl">We</p>
             <p className="font-bold mr-1 text-xl lg:text-4xl">Offer</p>
@@ -75,8 +75,8 @@ function ItineraryPage() {
 
         {/* <!-- itinerary section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-black">
-          <div className="w-full justify-center flex sm:flex-col px-8 sm:w-2/6 xl:w-1/6 py-2 text-white">
-            <p className="font-bold mr-1 text-2xl lg:text-4xl">Itinerary</p>
+          <div className="w-full justify-center flex sm:flex-col px-4 sm:w-2/6 xl:w-1/6 py-2 text-white">
+            <p className="font-bold mr-1 text-xl lg:text-4xl">Itinerary</p>
           </div>
           <div className="w-full sm:w-4/6 xl:w-5/6 text-white">
             <hr className="border-2 border-white w-5/5 m-auto mb-4"></hr>
@@ -89,7 +89,7 @@ function ItineraryPage() {
                   viewBox="0 0 20 20">
                   <path d="M9.999.8A9.2 9.2 0 00.8 10.001a9.2 9.2 0 0018.399 0A9.2 9.2 0 009.999.8zM10 13.001a3 3 0 110-6 3 3 0 010 6z" />
                 </svg>
-                <div className="flex flex-col w-2/3 ml-2 pr-4">
+                <div className="flex flex-col w-2/3 ml-2 pr-4 pb-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
                     <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -118,7 +118,7 @@ function ItineraryPage() {
                   viewBox="0 0 20 20">
                   <path d="M9.999.8A9.2 9.2 0 00.8 10.001a9.2 9.2 0 0018.399 0A9.2 9.2 0 009.999.8zM10 13.001a3 3 0 110-6 3 3 0 010 6z" />
                 </svg>
-                <div className="flex flex-col w-2/3 ml-2 pr-4">
+                <div className="flex flex-col w-2/3 ml-2 pr-4 pb-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
                     <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -147,7 +147,7 @@ function ItineraryPage() {
                   viewBox="0 0 20 20">
                   <path d="M9.999.8A9.2 9.2 0 00.8 10.001a9.2 9.2 0 0018.399 0A9.2 9.2 0 009.999.8zM10 13.001a3 3 0 110-6 3 3 0 010 6z" />
                 </svg>
-                <div className="flex flex-col w-2/3 ml-2 pr-4">
+                <div className="flex flex-col w-2/3 ml-2 pr-4 pb-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
                     <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -176,7 +176,7 @@ function ItineraryPage() {
                   viewBox="0 0 20 20">
                   <path d="M9.999.8A9.2 9.2 0 00.8 10.001a9.2 9.2 0 0018.399 0A9.2 9.2 0 009.999.8zM10 13.001a3 3 0 110-6 3 3 0 010 6z" />
                 </svg>
-                <div className="flex flex-col w-2/3 ml-2 pr-4">
+                <div className="flex flex-col w-2/3 ml-2 pr-4 pb-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
                     <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -205,7 +205,7 @@ function ItineraryPage() {
                   viewBox="0 0 20 20">
                   <path d="M9.999.8A9.2 9.2 0 00.8 10.001a9.2 9.2 0 0018.399 0A9.2 9.2 0 009.999.8zM10 13.001a3 3 0 110-6 3 3 0 010 6z" />
                 </svg>
-                <div className="flex flex-col w-2/3 ml-2 pr-4">
+                <div className="flex flex-col w-2/3 ml-2 pr-4 pb-4">
                   <p className="text-base sm:text-xl font-bold">Arrived in Tokyo</p>
                   <div className="border-l-2 -mx-4 pl-4 pt-3">
                     <p className="text-sm leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -231,7 +231,7 @@ function ItineraryPage() {
 
         {/* <!-- included section --> */}
         <div className="w-full flex sm:flex-row flex-col flex-wrap h-auto p-4 bg-white">
-          <div className="w-full justify-center flex sm:flex-col px-8 sm:w-2/6 xl:w-1/6 py-2">
+          <div className="w-full justify-center flex sm:flex-col px-4 sm:w-2/6 xl:w-1/6 py-2">
             <p className="font-bold mr-1 text-xl lg:text-4xl">What is</p>
             <p className="font-bold mr-1 text-xl lg:text-4xl">Included</p>
           </div>
